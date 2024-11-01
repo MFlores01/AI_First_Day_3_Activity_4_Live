@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="News Summarizer Tool", page_icon="", layout="wide")
 
 with st.sidebar:
-    st.image('images/White_AI Republic.png')
+    st.image('AI_First_Day_3_Activity_4_Live-main/images/White_AI Republic.png')
     openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
     if not (openai.api_key.startswith('sk-') and len(openai.api_key) == 164):
         st.warning('Please enter your OpenAI API token!', icon='⚠️')
@@ -90,7 +90,7 @@ elif options == "About Us":
     st.title('News Summarizer Tool')
     st.subheader("About Us")
     st.write("# Miguel Carlo Flores")
-    st.image('images/Migs.png')
+    st.image('AI_First_Day_3_Activity_4_Live-main/images/Migs.png')
     st.text("Connect with me via Linkedin : https://www.linkedin.com/in/miguel-carlo-flores-765767224/")
     st.write("\n")
 
